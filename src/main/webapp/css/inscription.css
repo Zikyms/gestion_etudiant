@@ -1,0 +1,140 @@
+h1{
+    text-align: center;
+    margin: 0;
+    background-color: rgb(20, 20, 20);
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+h2{
+  text-align: center;
+  color: rgb(240, 53, 53);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  .bar_navigation {   
+    overflow: hidden;
+    background-color: rgb(10, 10, 10); 
+   
+  }
+  
+  .bar_navigation a {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+   /** float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; **/
+
+  }
+  
+  .subnav {
+    float: left;
+    overflow: hidden;
+   
+  }
+  
+  .subnav .subnavbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .bar_navigation a:hover, .subnav:hover .subnavbtn {
+    background-color: rgb(0, 174, 255);
+    color: black;
+    
+  }
+  
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: rgb(0, 174, 255);
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .subnav-content a {
+    float: left;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+  p{
+      color: black;
+  }
+  
+  /* inscription/nouveau */
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=date], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+ 
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .bienvenue{
+    margin-top: 15% ;
+    text-align: center;
+    font-family: serif;
+    color:white;
+    font-size: 90px;
+  }
+  .bienvenue p h7{
+    color: white;
+    background-color: none ;
+   
+  }
+  
